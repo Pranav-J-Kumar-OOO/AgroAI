@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "agroai-7572f",
+  "private_key_id": ".",
+  "private_key": "/UWihfOjEeR3Lw2Ykd0sAM0/KeMVrW7vkD06MNbzIMrgMBz9cdsn1WvyV/xEdiq\no2q1V35TVOhRNkm2cxq9l2P1UBDfRtc4WziI6zP/UaI2PobG5EmbQShdZROdNboX\nUwwZLJlPAgMBAAECggEAXCw9aJHkjD+qq7hpo+vccokdELsiD0mBxh6er2qQo2kh\nbdqan4oHDwn+Vt8THf96p+2QIKmNFJ6dv3/BBoTHH7V1zeaW0mP4aGIpTB9EPRB7\nwZSbCbd7ubyKCnk9++u61GZmXnL2hZV1h3KiKDK5H6EawoFbnE7a8x3CX4T6gfKb\nuVB15mGL7Z/fKuCgA+sQLlHKuYrqmcJpMqhQNsquUYVkRF/+90wsWT6ExPFuSyBd\naO/nDmwUMaZ69oaCHaF/T87ay1D2nC9c9R4U85OOIuqhbFEEi9wUIdO8gVKlCx5A\nnmAcH9qucAc3OMkzNfwsD+kgPyjoGyUo0lperE7HYQKBgQDjubtf2KkkJzcz3bUS\nnSgqCR7YauO8fp0H27CoAcEpWK9qKOkV7ipsGAi5IofvM1DY83fqgiCAbjCU8/xR\nmKDAb938zGDE1is37yJEESTFRxLAiB/nkO8JTTGDdHUVCapbOI8wLyZsjyC1RH8n\nDY5xyve9JAVeu8UPvDZ/QS1uOwKBgQDQo1JVHsPj0icmV6AjdIKMR2m+isyxGSt8\nSHiu9s+fvim16YgeyL57dPtejr3vtxIw5j86Paar9q4sWEnQ03A73QZ6gNeuKVuH\nXvP/5ktP4pD2jpTx8uvb2HkEvQQVvp5fxgdJMUmXH7tUU25smReo12M/TU+qx/pf\nGr+K71xr/QKBgQDLupL2SXfwfyD0xslC0NRo3uX4iZAaR0+nAxUFCSTNH6k3GUiF\ntR/AurO7JThleAxBO3exlh8LpwjRiYHXYeuWnb4EdrewAUaC8O4/5PJ3h4EwO9gH\nK/Od57B/QUWpv47nsy7u1Y/TmSyS3qe+wXMJPKLsVHh1axj+XcyHhkDllwKBgG1w\njjp6JdT2InUZV7XhYq1EtHIviomHI2lQ9oUIkAZCEM0MT8ueD1ThGw4RoA4DILan\nwBjDyA7CGcDHGwlAL8om+UP/G6OOrCVJKIJeAblIpjO+vOBhRVkPpwNWRrNFRvwD\n+0RoZyqviWsFTJIIiAGX4caNvjFeLrX+aOTvA7LdAoGACPofny7ZpTSc4N4870jV\nT2Ku4WLyGonSyTUc3xmRP4OGUFt6TuQkAU992DuAroSL8tgE9vc4FDnDmZ6tM73a\nkCTMBpEoaMoM4wJdwjJkT1ruIGja3gEDxDN0VavAwGMvmIqqXCfDAnzmlb/YyuXK\npoJTithqhZCAjvPrIZSFxFk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ff.iam.gserviceaccount.com",
+  "client_id": "1949122",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ue0a3%40agroai-7572f.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,1356 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      78.5,
+      10.0
+    ]
+  },
+  "properties": {
+    "layers": [
+      {
+        "name": "bdod",
+        "unit_measure": {
+          "d_factor": 100,
+          "mapped_units": "cg/cm\u00b3",
+          "target_units": "kg/dm\u00b3",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 96,
+              "Q0.5": 151,
+              "Q0.95": 186,
+              "mean": 148,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 96,
+              "Q0.5": 150,
+              "Q0.95": 186,
+              "mean": 147,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 98,
+              "Q0.5": 158,
+              "Q0.95": 186,
+              "mean": 152,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 98,
+              "Q0.5": 156,
+              "Q0.95": 187,
+              "mean": 151,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 99,
+              "Q0.5": 156,
+              "Q0.95": 193,
+              "mean": 152,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 97,
+              "Q0.5": 154,
+              "Q0.95": 193,
+              "mean": 151,
+              "uncertainty": 6
+            }
+          }
+        ]
+      },
+      {
+        "name": "cec",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "mmol(c)/kg",
+          "target_units": "cmol(c)/kg",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 32,
+              "Q0.5": 264,
+              "Q0.95": 701,
+              "mean": 290,
+              "uncertainty": 25
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 28,
+              "Q0.5": 265,
+              "Q0.95": 640,
+              "mean": 291,
+              "uncertainty": 23
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 28,
+              "Q0.5": 264,
+              "Q0.95": 640,
+              "mean": 284,
+              "uncertainty": 23
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 28,
+              "Q0.5": 264,
+              "Q0.95": 640,
+              "mean": 284,
+              "uncertainty": 23
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 34,
+              "Q0.5": 270,
+              "Q0.95": 679,
+              "mean": 292,
+              "uncertainty": 24
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 36,
+              "Q0.5": 264,
+              "Q0.95": 580,
+              "mean": 274,
+              "uncertainty": 21
+            }
+          }
+        ]
+      },
+      {
+        "name": "cfvo",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "cm\u00b3/dm\u00b3",
+          "target_units": "cm\u00b3/100cm\u00b3",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 0,
+              "Q0.5": 35,
+              "Q0.95": 363,
+              "mean": 84,
+              "uncertainty": 104
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 0,
+              "Q0.5": 35,
+              "Q0.95": 280,
+              "mean": 74,
+              "uncertainty": 80
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 0,
+              "Q0.5": 30,
+              "Q0.95": 281,
+              "mean": 79,
+              "uncertainty": 94
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 0,
+              "Q0.5": 40,
+              "Q0.95": 524,
+              "mean": 111,
+              "uncertainty": 131
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 0,
+              "Q0.5": 40,
+              "Q0.95": 684,
+              "mean": 135,
+              "uncertainty": 171
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 0,
+              "Q0.5": 60,
+              "Q0.95": 680,
+              "mean": 153,
+              "uncertainty": 113
+            }
+          }
+        ]
+      },
+      {
+        "name": "clay",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "g/kg",
+          "target_units": "%",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 36,
+              "Q0.5": 349,
+              "Q0.95": 750,
+              "mean": 353,
+              "uncertainty": 20
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 37,
+              "Q0.5": 331,
+              "Q0.95": 764,
+              "mean": 350,
+              "uncertainty": 22
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 28,
+              "Q0.5": 386,
+              "Q0.95": 814,
+              "mean": 379,
+              "uncertainty": 20
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 25,
+              "Q0.5": 437,
+              "Q0.95": 836,
+              "mean": 428,
+              "uncertainty": 19
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 19,
+              "Q0.5": 447,
+              "Q0.95": 887,
+              "mean": 433,
+              "uncertainty": 19
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 21,
+              "Q0.5": 396,
+              "Q0.95": 846,
+              "mean": 410,
+              "uncertainty": 21
+            }
+          }
+        ]
+      },
+      {
+        "name": "nitrogen",
+        "unit_measure": {
+          "d_factor": 100,
+          "mapped_units": "cg/kg",
+          "target_units": "g/kg",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 30,
+              "Q0.5": 130,
+              "Q0.95": 989,
+              "mean": 291,
+              "uncertainty": 74
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 27,
+              "Q0.5": 117,
+              "Q0.95": 493,
+              "mean": 232,
+              "uncertainty": 40
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 20,
+              "Q0.5": 80,
+              "Q0.95": 451,
+              "mean": 161,
+              "uncertainty": 54
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 10,
+              "Q0.5": 50,
+              "Q0.95": 231,
+              "mean": 118,
+              "uncertainty": 44
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 10,
+              "Q0.5": 40,
+              "Q0.95": 140,
+              "mean": 68,
+              "uncertainty": 33
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 1,
+              "Q0.5": 25,
+              "Q0.95": 140,
+              "mean": 55,
+              "uncertainty": 56
+            }
+          }
+        ]
+      },
+      {
+        "name": "ocd",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "dg/dm\u00b3",
+          "target_units": "hg/m\u00b3",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 88,
+              "Q0.5": 270,
+              "Q0.95": 731,
+              "mean": 312,
+              "uncertainty": 24
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 76,
+              "Q0.5": 194,
+              "Q0.95": 455,
+              "mean": 231,
+              "uncertainty": 20
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 53,
+              "Q0.5": 146,
+              "Q0.95": 423,
+              "mean": 177,
+              "uncertainty": 25
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 37,
+              "Q0.5": 95,
+              "Q0.95": 299,
+              "mean": 112,
+              "uncertainty": 28
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 19,
+              "Q0.5": 55,
+              "Q0.95": 177,
+              "mean": 74,
+              "uncertainty": 29
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 14,
+              "Q0.5": 35,
+              "Q0.95": 117,
+              "mean": 55,
+              "uncertainty": 29
+            }
+          }
+        ]
+      },
+      {
+        "name": "ocs",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "t/ha",
+          "target_units": "kg/m\u00b2",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "0-30cm",
+            "values": {
+              "Q0.05": 12,
+              "Q0.5": 35,
+              "Q0.95": 107,
+              "mean": 45,
+              "uncertainty": 27
+            }
+          }
+        ]
+      },
+      {
+        "name": "phh2o",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "pH*10",
+          "target_units": "-",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 48,
+              "Q0.5": 72,
+              "Q0.95": 91,
+              "mean": 70,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 48,
+              "Q0.5": 73,
+              "Q0.95": 91,
+              "mean": 71,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 47,
+              "Q0.5": 74,
+              "Q0.95": 91,
+              "mean": 71,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 47,
+              "Q0.5": 76,
+              "Q0.95": 92,
+              "mean": 72,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 46,
+              "Q0.5": 76,
+              "Q0.95": 92,
+              "mean": 72,
+              "uncertainty": 6
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 44,
+              "Q0.5": 76,
+              "Q0.95": 92,
+              "mean": 72,
+              "uncertainty": 6
+            }
+          }
+        ]
+      },
+      {
+        "name": "sand",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "g/kg",
+          "target_units": "%",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 82,
+              "Q0.5": 359,
+              "Q0.95": 683,
+              "mean": 363,
+              "uncertainty": 17
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 94,
+              "Q0.5": 351,
+              "Q0.95": 683,
+              "mean": 367,
+              "uncertainty": 17
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 83,
+              "Q0.5": 330,
+              "Q0.95": 670,
+              "mean": 347,
+              "uncertainty": 18
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 67,
+              "Q0.5": 283,
+              "Q0.95": 681,
+              "mean": 315,
+              "uncertainty": 22
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 52,
+              "Q0.5": 281,
+              "Q0.95": 679,
+              "mean": 310,
+              "uncertainty": 22
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 61,
+              "Q0.5": 284,
+              "Q0.95": 671,
+              "mean": 325,
+              "uncertainty": 21
+            }
+          }
+        ]
+      },
+      {
+        "name": "silt",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "g/kg",
+          "target_units": "%",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 33,
+              "Q0.5": 213,
+              "Q0.95": 777,
+              "mean": 284,
+              "uncertainty": 35
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 34,
+              "Q0.5": 223,
+              "Q0.95": 759,
+              "mean": 283,
+              "uncertainty": 33
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 33,
+              "Q0.5": 221,
+              "Q0.95": 731,
+              "mean": 273,
+              "uncertainty": 32
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 25,
+              "Q0.5": 206,
+              "Q0.95": 686,
+              "mean": 257,
+              "uncertainty": 32
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 25,
+              "Q0.5": 219,
+              "Q0.95": 686,
+              "mean": 257,
+              "uncertainty": 30
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 24,
+              "Q0.5": 221,
+              "Q0.95": 703,
+              "mean": 265,
+              "uncertainty": 31
+            }
+          }
+        ]
+      },
+      {
+        "name": "soc",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "dg/kg",
+          "target_units": "g/kg",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 40,
+              "Q0.5": 175,
+              "Q0.95": 1309,
+              "mean": 361,
+              "uncertainty": 73
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 27,
+              "Q0.5": 105,
+              "Q0.95": 381,
+              "mean": 155,
+              "uncertainty": 34
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 15,
+              "Q0.5": 80,
+              "Q0.95": 430,
+              "mean": 146,
+              "uncertainty": 52
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 10,
+              "Q0.5": 50,
+              "Q0.95": 290,
+              "mean": 87,
+              "uncertainty": 56
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 6,
+              "Q0.5": 24,
+              "Q0.95": 131,
+              "mean": 82,
+              "uncertainty": 52
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 1,
+              "Q0.5": 18,
+              "Q0.95": 135,
+              "mean": 55,
+              "uncertainty": 74
+            }
+          }
+        ]
+      },
+      {
+        "name": "wv0010",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "(10-2 cm\u00b3/cm\u00b3)*10",
+          "target_units": "10-2 cm\u00b3/cm\u00b3",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 137,
+              "Q0.5": 363,
+              "Q0.95": 480,
+              "mean": 335,
+              "uncertainty": 9
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 137,
+              "Q0.5": 365,
+              "Q0.95": 477,
+              "mean": 335,
+              "uncertainty": 9
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 137,
+              "Q0.5": 361,
+              "Q0.95": 478,
+              "mean": 336,
+              "uncertainty": 9
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 155,
+              "Q0.5": 360,
+              "Q0.95": 470,
+              "mean": 336,
+              "uncertainty": 9
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 154,
+              "Q0.5": 350,
+              "Q0.95": 455,
+              "mean": 333,
+              "uncertainty": 9
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 161,
+              "Q0.5": 349,
+              "Q0.95": 480,
+              "mean": 340,
+              "uncertainty": 9
+            }
+          }
+        ]
+      },
+      {
+        "name": "wv0033",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "(10-2 cm\u00b3/cm\u00b3)*10",
+          "target_units": "10-2 cm\u00b3/cm\u00b3",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 126,
+              "Q0.5": 280,
+              "Q0.95": 412,
+              "mean": 274,
+              "uncertainty": 10
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 107,
+              "Q0.5": 286,
+              "Q0.95": 405,
+              "mean": 273,
+              "uncertainty": 10
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 127,
+              "Q0.5": 299,
+              "Q0.95": 405,
+              "mean": 278,
+              "uncertainty": 9
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 150,
+              "Q0.5": 319,
+              "Q0.95": 420,
+              "mean": 304,
+              "uncertainty": 8
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 173,
+              "Q0.5": 320,
+              "Q0.95": 420,
+              "mean": 316,
+              "uncertainty": 8
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 185,
+              "Q0.5": 320,
+              "Q0.95": 420,
+              "mean": 318,
+              "uncertainty": 7
+            }
+          }
+        ]
+      },
+      {
+        "name": "wv1500",
+        "unit_measure": {
+          "d_factor": 10,
+          "mapped_units": "(10-2 cm\u00b3/cm\u00b3)*10",
+          "target_units": "10-2 cm\u00b3/cm\u00b3",
+          "uncertainty_unit": ""
+        },
+        "depths": [
+          {
+            "range": {
+              "top_depth": 0,
+              "bottom_depth": 5,
+              "unit_depth": "cm"
+            },
+            "label": "0-5cm",
+            "values": {
+              "Q0.05": 47,
+              "Q0.5": 170,
+              "Q0.95": 331,
+              "mean": 176,
+              "uncertainty": 17
+            }
+          },
+          {
+            "range": {
+              "top_depth": 5,
+              "bottom_depth": 15,
+              "unit_depth": "cm"
+            },
+            "label": "5-15cm",
+            "values": {
+              "Q0.05": 43,
+              "Q0.5": 170,
+              "Q0.95": 315,
+              "mean": 177,
+              "uncertainty": 16
+            }
+          },
+          {
+            "range": {
+              "top_depth": 15,
+              "bottom_depth": 30,
+              "unit_depth": "cm"
+            },
+            "label": "15-30cm",
+            "values": {
+              "Q0.05": 55,
+              "Q0.5": 174,
+              "Q0.95": 348,
+              "mean": 188,
+              "uncertainty": 17
+            }
+          },
+          {
+            "range": {
+              "top_depth": 30,
+              "bottom_depth": 60,
+              "unit_depth": "cm"
+            },
+            "label": "30-60cm",
+            "values": {
+              "Q0.05": 77,
+              "Q0.5": 211,
+              "Q0.95": 336,
+              "mean": 215,
+              "uncertainty": 12
+            }
+          },
+          {
+            "range": {
+              "top_depth": 60,
+              "bottom_depth": 100,
+              "unit_depth": "cm"
+            },
+            "label": "60-100cm",
+            "values": {
+              "Q0.05": 82,
+              "Q0.5": 210,
+              "Q0.95": 336,
+              "mean": 217,
+              "uncertainty": 12
+            }
+          },
+          {
+            "range": {
+              "top_depth": 100,
+              "bottom_depth": 200,
+              "unit_depth": "cm"
+            },
+            "label": "100-200cm",
+            "values": {
+              "Q0.05": 82,
+              "Q0.5": 210,
+              "Q0.95": 345,
+              "mean": 217,
+              "uncertainty": 13
+            }
+          }
+        ]
+      }
+    ],
+    "water": null
+  },
+  "query_time_s": 49.34483003616333,
+  "additional_info":"Give data for land with low water requirement."
+}
